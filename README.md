@@ -3,7 +3,7 @@
 A library and CLI tool for graphical representation of Rust code, 
 focusing on visualizing the relationships between structs and enums.
 
-![mml](https://crates.io/crates/mml) appears to be dead and deprecated, so I started working on my 
+[mml](https://crates.io/crates/mml) appears to be dead and deprecated, so I started working on my 
 own implementation.
 
 ## Usage
@@ -36,4 +36,4 @@ License
 Rust Code Visualizer is licensed under the MIT License.
 Acknowledgements
 
-Special thanks to the creators of the ![mml](https://crates.io/crates/mml) crate for their initial work and inspiration.
+Special thanks to the creators of the [mml](https://crates.io/crates/mml) crate for their initial work and inspiration.
