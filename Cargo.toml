@@ -2,8 +2,13 @@
 name = "rust_code_visualizer"
 version = "0.1.0"
 edition = "2021"
+authors = ["Dmitrii Stepanidenko <dimitrij.stepanidenko AT google mail .com>"] 
+description = """
+A library and CLI tool for graphical representation of Rust code, focusing on visualizing the relationships between structs and enums.
+"""
+repository = "https://github.com/dmitriiStepanidenko/RustCodeVisualizer"
+readme = "README.md"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 quote = "1.0.26"
@@ -12,7 +17,7 @@ proc-macro2 = "1.0"
 petgraph = "0.6.0"
 
 [profile.dev]
-opt-level = 0  # Controls the --opt-level the compiler builds with
+opt-level = 0
 debug = true
 
 [profile.release]
