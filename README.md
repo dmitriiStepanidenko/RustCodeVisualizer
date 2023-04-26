@@ -10,7 +10,7 @@ own implementation.
 ## Usage
 Here's how the CLI works (current use):
 ```sh
-cargo run test.rs > graph.dot 
+rcvis test.rs > graph.dot 
 dot -Tpng graph.dot -o graph.png
 
 ```

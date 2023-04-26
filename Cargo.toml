@@ -1,6 +1,6 @@
 [package]
 name = "rust_code_visualizer"
-version = "0.1.0"
+version = "0.1.2"
 edition = "2021"
 authors = ["Dmitrii Stepanidenko <dimitrij.stepanidenko AT google mail .com>"] 
 description = """
@@ -9,6 +9,11 @@ A library and CLI tool for graphical representation of Rust code, focusing on vi
 repository = "https://github.com/dmitriiStepanidenko/RustCodeVisualizer"
 readme = "README.md"
 license = "MIT"
+
+[[bin]]
+name = "rcvis"
+path = "src/bin/main.rs"
+
 
 
 [dependencies]
