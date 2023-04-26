@@ -30,7 +30,7 @@ saving the result to file.out.
 
 ## Example
 For the structures.rs in example folder:
-!(Example structures.rs image)[example/graph.png]
+![Example structures.rs image](example/graph.png)
 
 ## Installation
 
