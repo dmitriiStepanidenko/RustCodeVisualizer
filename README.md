@@ -6,9 +6,16 @@ focusing on visualizing the relationships between structs and enums.
 [mml](https://crates.io/crates/mml) appears to be dead and deprecated, so I started working on my 
 own implementation.
 
-## Usage
 
-Here's how the CLI works:
+## Usage
+Here's how the CLI works (current use):
+```sh
+cargo run test.rs > graph.dot 
+dot -Tpng graph.dot -o graph.png
+
+```
+
+Here's how the CLI works (in future):
 ```sh
 rcvis source.rs source1.rs --format {plantuml,graphviz} --out file.out
 ```
@@ -20,6 +27,10 @@ saving the result to file.out.
 
 - [ ] Export relationships between structs and enums to Graphviz format
 - [ ] Export relationships between structs and enums to PlantUML format
+
+## Example
+For the structures.rs in example folder:
+!(Example structures.rs image)[example/graph.png]
 
 ## Installation
 
